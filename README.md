@@ -4,7 +4,7 @@
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://chrome.google.com/webstore/) 
 
-**NoFishInThisPond** é uma extensão para o navegador Google Chrome (com suporte para outros navegadores em breve) focada em **proteger você contra sites suspeitos e tentativas de phishing**.
+**NoFishInThisPond** é uma extensão para o navegador Google Chrome focada em **proteger você contra sites suspeitos e tentativas de phishing**.
 
 ## 🚀 Sobre o projeto
 
@@ -28,7 +28,7 @@ A internet está cheia de ameaças disfarçadas em links aparentemente inofensiv
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SeuUsuario/NoFishInThisPond.git
+   git clone https://github.com/SamuelV1/NoFishInThisPond.git
    ```
 
 2. No Chrome:
