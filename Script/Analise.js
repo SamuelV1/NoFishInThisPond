@@ -1,9 +1,7 @@
 function mostrarAlerta(mensagem) {
  
-  // Cria container
   const alerta = document.createElement("div");
   alerta.id = "alerta-dom-suspeito";
-  // html do meu alerta
   alerta.innerHTML = `
     <div class="alert-content">
       <strong class="alert-title">⚠️ Atenção: domínio suspeito detectado</strong>
@@ -45,7 +43,6 @@ const dominiosSuspeitos = [
   "degetoken.com",  
   "dege-token.com",
   ".best",
-  "w3schools.com",
   ".rest",
   ".stream",
   ".mov",
@@ -99,7 +96,7 @@ function analisarUrl(urlString) {
 
     const isHostMatch = host === domain || host.endsWith("." + domain);
 
-    // Só aplica `.includes()` se o domínio tem ao menos 5 caracteres
+
     const isSuspiciousLong = domain.length >= 5;
     const isInHref = isSuspiciousLong && fullUrl.includes(domain);
 
@@ -112,7 +109,7 @@ function analisarUrl(urlString) {
   return false;
 }
 
-// Monitora navegação em SPA
+// Monitora mudanças de URL 
 (function monitorarSinglePageApp() {
   const push = history.pushState;
   history.pushState = function () {

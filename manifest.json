@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "NoFishInThisPond",
+  "description": "Extensão para proteger sua navegação contra phishing",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -13,6 +13,6 @@
   ],
   "action": {
     "default_popup": "alert.html",
-    "default_icon": "icon.png"
+    "default_icon": "icone.png"
   }
 }

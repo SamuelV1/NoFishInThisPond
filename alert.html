@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 15px;
-      text-align: center;
-    }
-    .warning {
-      color: #d32f2f;
-      font-weight: bold;
-    }
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+   min-width: 200px; 
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.mensagem {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 0;
+  white-space: normal;
+  word-break:   break-word;
+}
+
   </style>
 </head>
 <body>
-  <div class="warning">⚠️ ATENÇÃO!</div>
-  <p>Este site é potencialmente perigoso RAPAIZZZZZZZZZZZZZZZZZ:</p>
-  
+   <div class="container">
+      <img src="icone.png" alt="Logo da extensão" class="logo" />
+      <p class="mensagem">Sua navegação está protegida.</p>
+    </div>
 
 </body>
 </html>
