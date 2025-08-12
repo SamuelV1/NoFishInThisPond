@@ -12,7 +12,7 @@ function mostrarAlerta(mensagem) {
   alerta.innerHTML = `
     <div class="alert-content">
       <strong class="alert-title">⚠️ Atenção: domínio suspeito detectado</strong>
-      <p class="alert-text">Você acessou o domínio <strong>${mensagem}</strong>, que pode estar associado a práticas de phishing.</p>
+      <p class="alert-text">Você acessou um domínio que pode estar associado a práticas de phishing.</p>
       <p class="alert-footer">
         Phishing é uma tentativa de enganar você para roubar dados pessoais.
         <a href="https://pt.wikipedia.org/wiki/Phishing" target="_blank" rel="noopener">[Saiba mais]</a>
@@ -47,8 +47,8 @@ function mostrarAlerta(mensagem) {
 const dominiosSuspeitos = [
   "vl.de", ".ws", ".com.au", ".vx51r.com", ".weebly.com", "duckdns.org",
   "vercel.app", "sufybkt.com", ".live", ".buzz", ".support", ".help",
-  "ipfs.io", ".services", ".cam", "b4nk.xyz", "degetoken.com",
-  "dege-token.com", ".best", ".rest", "w3schools", ".stream", ".mov",
+  "ipfs.io", ".services", ".cam", "b4nk.xyz", "degetoken.com","m6r2mrb",
+  "dege-token.com", ".best", ".rest", ".stream", ".mov",".eu",
   ".xyz", ".top", ".club", ".online", ".tk", ".ml", ".ga", ".cf", ".gq",
   ".bid", ".loan", ".vip", ".wang", ".icu", ".party", ".trade", ".accountant",
   ".review", ".password", ".secure", ".verify", ".signin", ".update",
